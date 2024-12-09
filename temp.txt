@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathan D | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mathan D</h1>
+            <p>Full Stack Developer | AI Enthusiast | Problem Solver</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="padding: 4rem 2rem; background-color: var(--dark-surface); color: var(--dark-text-secondary);">
+        <h2 style="text-align: center; color: var(--dark-primary); font-size: 2.5rem; margin-bottom: 2rem;">About Me</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p>Hello! I am <strong>Mathan D</strong>, a passionate B.Tech IT student from Sri Ramakrishna Engineering College, Coimbatore (2022-2026). I specialize in <strong>Full-Stack Web Development</strong>, AI technologies, and <strong>Machine Learning</strong>.</p>
+            <p>I strive to merge creativity and problem-solving skills to develop impactful solutions at the intersection of tech and design. I am currently seeking internship opportunities to further my skills and contribute to innovative projects.</p>
+        </div>
+        <div style="margin-top: 2rem; text-align: center;">
+            <h3>Hobbies & Interests</h3>
+            <p>Listening to music, Athletics (100m, 400m), Exploring AI & Design</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="background-color: var(--dark-bg); padding: 4rem 2rem;">
+        <h2 style="text-align: center; color: var(--dark-primary); font-size: 2.5rem; margin-bottom: 2rem;">Featured Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" onclick="openModal('busBooking')">
+                <img src="https://via.placeholder.com/400x250?text=Bus+Booking+System" alt="Bus Booking System">
+                <div class="project-overlay">
+                    <div class="project-overlay-content">Bus Booking System</div>
+                </div>
+            </div>
+            <div class="project-card" onclick="openModal('agroDoctorApp')">
+                <img src="https://via.placeholder.com/400x250?text=Agro+Doctor+App" alt="Agro Doctor App">
+                <div class="project-overlay">
+                    <div class="project-overlay-content">Agro Doctor App</div>
+                </div>
+            </div>
+            <div class="project-card" onclick="openModal('pesticidePrediction')">
+                <img src="https://via.placeholder.com/400x250?text=Pesticide+Prediction" alt="Pesticide Prediction">
+                <div class="project-overlay">
+                    <div class="project-overlay-content">Pesticide Prediction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="padding: 4rem 2rem; background-color: var(--dark-surface);">
+        <h2 style="text-align: center; color: var(--dark-primary); font-size: 2.5rem; margin-bottom: 2rem;">Skills</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2rem; justify-items: center;">
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=C" alt="C Language">
+                <p>C Language</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=C%2B%2B" alt="C++ Language">
+                <p>C++ Language</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=Python" alt="Python">
+                <p>Python</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=Java" alt="Java">
+                <p>Java</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=HTML" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=SQL" alt="SQL">
+                <p>SQL</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=JS" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/100x100?text=Photoshop" alt="Adobe Photoshop">
+                <p>Adobe Photoshop</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 4rem 2rem; background-color: var(--dark-bg); color: var(--dark-text-secondary);">
+        <h2 style="text-align: center; color: var(--dark-primary); font-size: 2.5rem; margin-bottom: 2rem;">Contact</h2>
+        <p style="text-align: center;">Feel free to reach out via email or phone!</p>
+        <p style="text-align: center; margin-top: 1rem;">📞 8925148149 | 📧 <a href="mailto:mathan.2205051@srec.ac.in" style="color: var(--dark-primary);">mathan.2205051@srec.ac.in</a></p>
+        <p style="text-align: center; margin-top: 1rem;">🏠 267/D2 Kamatchi Puram, Periyanayakan Palayam, Coimbatore - 20</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
